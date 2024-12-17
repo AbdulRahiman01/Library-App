@@ -1,0 +1,69 @@
+*{
+    font-family: sans-serif;
+}
+.landingpage{
+    height: 100vh;
+    width: 100%;
+    border: none;
+    /* background-color: tan; */
+    background: linear-gradient(45deg , blue, lightblue, white);
+
+    display: grid;
+    place-items: center;
+}
+.landingpage .login-container{
+    border: solid 1px black;
+    height: 60vh;
+    width: 40%;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+}
+.landingpage .header{
+    text-align: center;
+    font-size: 40px;
+    margin: 2vh 0   ;
+    font-weight: bold;
+}
+.landingpage .btn-box{
+    border: solid 1px black;
+    height: 7vh;
+    width: 10vw;
+    margin: 2vh auto;
+    border-radius: 10vh;
+    overflow:hidden;
+    box-shadow: 2px 2px 5px black;
+}
+.landingpage .btn-box button{
+    height: 100%;
+    width: 50%;
+    border: none;
+    font-weight: bold;
+    transition: all .5s;
+    cursor: pointer;
+}
+.landingpage .btn-box .lft-btn{
+    margin-left: 50%;
+}
+.landingpage .form-box{
+    /* background: yellow; */
+    padding: 2vh 0;
+}
+.landingpage input ,.landingpage .form-box button{
+    display: block;
+    margin: 2vh auto;
+    padding: 1vh 1vw;
+    box-shadow: 2px 2px 5px black;
+}
+.landingpage input{
+    width: 60%;
+    border-radius: 10px;
+}
+.landingpage .form-box button{
+    width: 25%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.landingpage .form-box h2{
+    text-align: center;
+}

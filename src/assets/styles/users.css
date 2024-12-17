@@ -1,0 +1,35 @@
+table {
+    width:70%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 10px auto ;
+    text-align: left;   
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: skyblue;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: skyblue;
+}
+
+table tr:hover {
+    background-color: rgb(45, 150, 192);
+    color: white;
+}
+.user-button{
+    height: 4vh;
+    width: 6vw;
+    border-radius: 10px;
+}
+.user-button:hover{
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,31 @@
+.readbooks{
+    width:100vw;
+}
+ .header h4{
+    text-align:center;
+    color:black;
+    font-weight: bold;
+    font-size:30px;
+    margin:15px;
+}
+.read-books .card{
+    border:solid 1px black;
+    box-shadow: 0px 0px 14px black;
+    width:70vw;
+    height:55vh;
+    display:flex;
+    margin: 50px auto;
+    border-radius: 20px; 
+}
+.card .read-img img{
+    width:10vw;
+     padding:10px;
+     margin:15px;
+     box-shadow:0px 0px 10px black;
+}
+.desc{
+    padding:10px;
+    font-size:17px;
+    overflow:auto;
+    background:linear-gradient(to right,white,rgb(87, 87, 141));
+}

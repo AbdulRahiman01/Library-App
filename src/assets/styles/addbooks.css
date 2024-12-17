@@ -1,0 +1,39 @@
+.addbooks{
+    text-align: center;
+}
+.book-container{
+    background:skyblue;
+    margin: 8vh auto;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    height: 45vh;
+    width: 60vw;
+}
+.form-container{
+    margin-left: 2vw;
+    margin-top: 4vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5vh;
+}
+input{
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: .65px;
+}
+.book-btn{
+    margin-top: 1.75vh;
+    height: 4vh;
+    width: 8vw;
+    border-radius: 6px;
+}
+.book-btn:hover{
+    margin-top: 3vh;
+    height: 4.5vh;
+    width: 8.5vw;
+    border-radius: 6px;
+    background-color: green;
+    color: white;
+}

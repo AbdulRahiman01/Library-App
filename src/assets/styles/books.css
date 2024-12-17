@@ -1,0 +1,69 @@
+.books{
+    background:linear-gradient(to right,skyblue,white) ;
+}
+.books .header{
+    text-align: center;
+    /* box-shadow: 5px 5px 5px grey; */
+}
+
+.books .cards{
+    border: solid 1px black;
+    width: 40vw;
+    height: 52vh;
+    text-align: center;
+    display: flex;
+    border-radius: 20px;
+    box-shadow:  5px 5px 5px grey;
+}
+.cards:hover{
+    height: 51vh;
+    width: 41vw;
+    background:white;
+}
+.books .container{
+    display: grid;
+    padding-top: 5vh;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    row-gap: 5vh;
+}
+.books .container .img-photo{
+    width: 30%;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+.title{
+    font-size: 10px
+}
+.data{
+    border: solid 1px black;
+    padding: 1vh;
+    margin-top: 5vh;
+    margin-right: 3vh;
+    width: 70%;
+    height: 42vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+.cards .title-photo{
+    margin-top: 8px;
+}
+.btn-lft{
+    height:3vh;
+    width: 6vw;
+    margin-left:10px ;
+    border-radius: 2px;
+}
+.btn-rght{
+    height: 4vh;
+    width: 5vw;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+.btn-lft:hover{
+    background-color: green;
+}
+.btn-rght:hover{
+    /* margin-left: 100px; */
+    background-color: red;
+}
